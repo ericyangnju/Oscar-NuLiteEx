@@ -1,0 +1,13 @@
+[Equation]
+defequ EQU1<ext=0, equ="5*SampleFile">
+
+[Audio]
+defaud SampleFile <ext=0,format=NUL>
+defaud Sound_ModlitwaDziewicy_8K <ext=0,format=NUL>
+defaud Speech_James_8K <ext=0,format=NUL>
+defaud Sound_Canon_8K <ext=0,format=NUL>
+
+
+
+
+
