@@ -2,7 +2,7 @@
 .\nuliteex\keypad.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\keypad.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\keypad.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -30,6 +30,6 @@
 .\nuliteex\keypad.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\keypad.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\keypad.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\keypad.o: ..\..\..\..\Library\IO\inc\Keypad.h
-.\nuliteex\keypad.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\nuliteex\keypad.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

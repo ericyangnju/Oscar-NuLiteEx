@@ -4,7 +4,7 @@
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\appfunctions.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\appfunctions.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -32,7 +32,7 @@
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\appfunctions.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\appfunctions.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\appfunctions.o: ..\ConfigIP.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h
 .\nuliteex\appfunctions.o: ..\..\..\..\Library\Framework\inc\SysInfra.h

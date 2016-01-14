@@ -1,7 +1,7 @@
 .\nuliteex\pdma.o: ..\..\..\..\Library\StdDriver\src\pdma.c
 .\nuliteex\pdma.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\pdma.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\pdma.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\pdma.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\pdma.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\pdma.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\pdma.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h

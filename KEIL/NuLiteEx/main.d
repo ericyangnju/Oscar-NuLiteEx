@@ -4,7 +4,7 @@
 .\nuliteex\main.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\main.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\main.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\main.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\main.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\main.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -32,7 +32,7 @@
 .\nuliteex\main.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\main.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\main.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\main.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\main.o: ..\ConfigIP.h
 .\nuliteex\main.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h
 .\nuliteex\main.o: ..\..\..\..\Library\Framework\inc\SysInfra.h
@@ -53,5 +53,13 @@
 .\nuliteex\main.o: ..\ConfigSysClk.h
 .\nuliteex\main.o: ..\..\..\..\Library\Framework\inc\SysClk.h
 .\nuliteex\main.o: ..\..\..\..\Library\Framework\inc\MicSpk.h
-.\nuliteex\main.o: ..\./OLED/LY096BG30.h
 .\nuliteex\main.o: ..\config.h
+.\nuliteex\main.o: ..\./OLED/LY096BG30.h
+.\nuliteex\main.o: ..\./HDC1000/HDC1000.h
+.\nuliteex\main.o: ..\./MPU6050/MPU6050_api.h
+.\nuliteex\main.o: ..\./MPU6050/MPU6050.h
+.\nuliteex\main.o: ..\./MPU6050/AHRSLib.h
+.\nuliteex\main.o: ..\./MPU6050/Sensors.h
+.\nuliteex\main.o: ..\./MPU6050/Def.h
+.\nuliteex\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\nuliteex\main.o: ..\./MPU6050/Timer_Ctrl.h

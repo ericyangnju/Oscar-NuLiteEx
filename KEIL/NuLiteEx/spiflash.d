@@ -3,7 +3,7 @@
 .\nuliteex\spiflash.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\spiflash.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\spiflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -31,7 +31,7 @@
 .\nuliteex\spiflash.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\spiflash.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\spiflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\Framework\inc\SysInfra.h
 .\nuliteex\spiflash.o: ..\..\..\..\Library\Framework\inc\ModuleID.h
-.\nuliteex\spiflash.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\nuliteex\spiflash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

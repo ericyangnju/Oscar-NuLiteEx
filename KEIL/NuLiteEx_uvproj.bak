@@ -447,6 +447,11 @@
               <FileType>1</FileType>
               <FilePath>..\Powerdown.c</FilePath>
             </File>
+            <File>
+              <FileName>I2c0int.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\I2c0int.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -498,14 +503,14 @@
           <GroupName>AudioRes</GroupName>
           <Files>
             <File>
-              <FileName>AudioRes.uid</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\AudioRes\AudioRes.uid</FilePath>
-            </File>
-            <File>
               <FileName>WAVTable_Middle.idt</FileName>
               <FileType>5</FileType>
               <FilePath>..\AudioRes\WAVTable_Middle.idt</FilePath>
+            </File>
+            <File>
+              <FileName>AudioRes.uid</FileName>
+              <FileType>9</FileType>
+              <FilePath>..\AudioRes\AudioRes.uid</FilePath>
             </File>
           </Files>
         </Group>

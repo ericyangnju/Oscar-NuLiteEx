@@ -1,6 +1,6 @@
 .\nuliteex\i2c0int.o: ..\I2c0int.c
-.\nuliteex\i2c0int.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\nuliteex\i2c0int.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\i2c0int.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\nuliteex\i2c0int.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\i2c0int.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\isd9100.h
 .\nuliteex\i2c0int.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
 .\nuliteex\i2c0int.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h

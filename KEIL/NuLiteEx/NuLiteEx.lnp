@@ -52,8 +52,12 @@
 "..\..\..\..\Library\Audio\arm\NuVoxEx_Keil.lib"
 "..\..\..\..\Library\Audio\arm\P16_Keil.lib"
 ".\nuliteex\ly096bg30.o"
+".\nuliteex\hdc1000.o"
+".\nuliteex\mpu6050.o"
+".\nuliteex\mpu6050_api.o"
+".\nuliteex\timer_ctrl.o"
+"..\MPU6050\AHRSLibISD9100.lib"
 --strict --scatter ".\Application_Keil.ld"
-
 --pd="-DSRAM_SIZE=0x3000" --pd="-DROM_SIZE=0x23400"  --map --datacompressor=off --info=inline --entry Reset_Handler --remove --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\NuLiteEx\NuLiteEx.map" -o .\NuLiteEx\NuLiteEx.axf

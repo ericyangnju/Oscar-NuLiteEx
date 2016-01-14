@@ -1,7 +1,7 @@
 .\nuliteex\timer.o: ..\..\..\..\Library\StdDriver\src\timer.c
 .\nuliteex\timer.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\timer.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\timer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\timer.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\timer.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\timer.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\timer.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h

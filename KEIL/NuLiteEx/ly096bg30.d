@@ -1,7 +1,7 @@
 .\nuliteex\ly096bg30.o: ..\OLED\LY096BG30.c
-.\nuliteex\ly096bg30.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
-.\nuliteex\ly096bg30.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
-.\nuliteex\ly096bg30.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\nuliteex\ly096bg30.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\nuliteex\ly096bg30.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\nuliteex\ly096bg30.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\nuliteex\ly096bg30.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\isd9100.h
 .\nuliteex\ly096bg30.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
 .\nuliteex\ly096bg30.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h

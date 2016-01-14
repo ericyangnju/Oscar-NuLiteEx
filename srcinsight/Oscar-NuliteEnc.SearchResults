@@ -1,0 +1,107 @@
+---- u32TotalAudioNum Matches (7 in 3 files) ----
+App.h:	UINT32 u32TotalAudioNum;
+AppFunctions.c:	g_sApp.u32TotalAudioNum = AudioRom_GetAudioNum( SPIFlash_ReadDataCallback, AUDIOROM_STORAGE_START_ADDR );
+InputKeyActions.c:		if( g_sApp.u32TotalAudioNum > 0 )
+InputKeyActions.c:	if( g_sApp.u32TotalAudioNum > 0 )
+InputKeyActions.c:		if( (g_sApp.u32PlayID+=1) >= g_sApp.u32TotalAudioNum )
+InputKeyActions.c:	if( g_sApp.u32TotalAudioNum > 0 )
+InputKeyActions.c:			g_sApp.u32PlayID = g_sApp.u32TotalAudioNum-1;
+---- u32TotalAudioNum Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\workspace\WPI\Nuvoton\Oscar-Numaker\SampleCode\AudioCodec\Oscar-NuLiteEx\KEIL\NuLiteEx\NuLiteEx.build_log.htm : File could not be opened.
+---- AUDIOSYN_SOUND_MAX_ID Matches (2 in 2 files) ----
+AudioRes_AudioInfo.h (audiores\output):#define AUDIOSYN_SOUND_MAX_ID	3
+AudioRes_AudioInfo.h (audiores\output\新建文件夹):#define AUDIOSYN_SOUND_MAX_ID	3
+---- AUDIOSYN_SOUND_MAX_ID Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\workspace\WPI\Nuvoton\Oscar-Numaker\SampleCode\AudioCodec\Oscar-NuLiteEx\KEIL\NuLiteEx\NuLiteEx.build_log.htm : File could not be opened.
+---- g_sApp Matches (21 in 3 files) ----
+AppFunctions.c:extern S_APP g_sApp;
+AppFunctions.c:	NuLiteExApp_DecodeInitiate(&g_sApp.sNuLiteExAppDecode, (UINT8 *)&g_sApp.uTempBuf, 0);
+AppFunctions.c:	g_sApp.u32TotalAudioNum = AudioRom_GetAudioNum( SPIFlash_ReadDataCallback, AUDIOROM_STORAGE_START_ADDR );
+AppFunctions.c:	g_sApp.u32PlayID = 0;
+AppFunctions.c:	if ( NuLiteExApp_DecodeStartPlayByID(&g_sApp.sNuLiteExAppDecode, g_sApp.u32PlayID, AUDIOROM_STORAGE_START_ADDR, 0) == FALSE )
+AppFunctions.c:	NuLiteExApp_DecodeStopPlay( &g_sApp.sNuLiteExAppDecode );
+AppFunctions.c:	if ( NuLiteExApp_DecodeProcess(&g_sApp.sNuLiteExAppDecode) == TRUE )
+InputKeyActions.c:extern S_APP g_sApp;
+InputKeyActions.c:		if( g_sApp.u32TotalAudioNum > 0 )
+InputKeyActions.c:	if( g_sApp.u32TotalAudioNum > 0 )
+InputKeyActions.c:		if( (g_sApp.u32PlayID+=1) >= g_sApp.u32TotalAudioNum )
+InputKeyActions.c:			g_sApp.u32PlayID = 0;
+InputKeyActions.c:	if( g_sApp.u32TotalAudioNum > 0 )
+InputKeyActions.c:		if( g_sApp.u32PlayID == 0 )
+InputKeyActions.c:			g_sApp.u32PlayID = g_sApp.u32TotalAudioNum-1;
+InputKeyActions.c:			g_sApp.u32PlayID--;
+Main.c:S_APP g_sApp;
+---- g_sApp Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\workspace\WPI\Nuvoton\Oscar-Numaker\SampleCode\AudioCodec\Oscar-NuLiteEx\KEIL\NuLiteEx\NuLiteEx.build_log.htm : File could not be opened.
+---- audiores_audioinfo Matches (0 in 0 files) ----
+---- audiores_audioinfo Search Errors Encountered (1) ----
+The following 1 files could not be processed:
+E:\workspace\WPI\Nuvoton\Oscar-Numaker\SampleCode\AudioCodec\Oscar-NuLiteEx\KEIL\NuLiteEx\NuLiteEx.build_log.htm : File could not be opened.
+---- OUT_KEY_COUNT Matches (1 in 1 files) ----
+ConfigIO.h:#define OUT_KEY_COUNT		(6)
+---- OUT3 Matches (13 in 4 files) ----
+AppFunctions.c:	OUT3(0);
+ConfigIO.h://OUT3
+ConfigIO.h:#define OUT3_PORT				PA
+ConfigIO.h:#define OUT3_PIN_MASK			BIT14
+ConfigIO.h:#define OUTPUT_PORTA_PINS_MASK		(OUT1_PIN_MASK|OUT2_PIN_MASK|OUT3_PIN_MASK|OUT4_PIN_MASK)
+ConfigIO.h:#define	OUT3(b)		OutputPin_Set(OUT3_PORT,OUT3_PIN_MASK,b)
+NuLiteEx.build_log.htm (keil\nuliteex):..\AppFunctions.c(84): warning:  #223-D: function "OUT3" declared implicitly
+NuLiteEx.build_log.htm (keil\nuliteex):  	OUT3(0);
+NuLiteEx.build_log.htm (keil\nuliteex):..\Powerdown.c(270): warning:  #223-D: function "OUT3" declared implicitly
+NuLiteEx.build_log.htm (keil\nuliteex):  	OUT3(0);
+Powerdown.c:	OUT3(0);
+---- OUT4_PORT Matches (4 in 1 files) ----
+ConfigIO.h:#define OUT4_PORT				PB
+ConfigIO.h:#define	OUT4(b)		OutputPin_Set(OUT4_PORT,OUT4_PIN_MASK,b)
+ConfigIO.h:#define OUT4_PORT				PA
+ConfigIO.h:#define	OUT4(b)		OutputPin_Set(OUT4_PORT,OUT4_PIN_MASK,b)
+---- OUT4 Matches (14 in 1 files) ----
+ConfigIO.h://OUT4
+ConfigIO.h:#define OUT4_PORT				PB
+ConfigIO.h:#define OUT4_PIN_MASK			BIT5
+ConfigIO.h:#define OUTPUT_PORTB_PINS_MASK		(OUT4_PIN_MASK|OUT5_PIN_MASK|OUT6_PIN_MASK)
+ConfigIO.h:#define	OUT4(b)		OutputPin_Set(OUT4_PORT,OUT4_PIN_MASK,b)
+ConfigIO.h://OUT4
+ConfigIO.h:#define OUT4_PORT				PA
+ConfigIO.h:#define OUT4_PIN_MASK			BIT15
+ConfigIO.h:#define OUTPUT_PORTA_PINS_MASK		(OUT1_PIN_MASK|OUT2_PIN_MASK|OUT3_PIN_MASK|OUT4_PIN_MASK)
+ConfigIO.h:#define	OUT4(b)		OutputPin_Set(OUT4_PORT,OUT4_PIN_MASK,b)
+---- TMR0_IRQHandler Matches (5 in 4 files) ----
+InterruptHandler.c:void TMR0_IRQHandler()
+NuLiteEx.build_log.htm (keil\nuliteex):.\NuLiteEx\NuLiteEx.axf: Error: L6200E: Symbol TMR0_IRQHandler multiply defined (by timer_ctrl.o and interrupthandler.o).
+NuLiteEx.htm (keil\nuliteex): <LI><a href="#[13]">TMR0_IRQHandler</a> from interrupthandler.o(i.TMR0_IRQHandler) referenced from startup_isd9100.o(RESET)
+NuLiteEx.htm (keil\nuliteex):<P><STRONG><a name="[13]"></a>TMR0_IRQHandler</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, interrupthandler.o(i.TMR0_IRQHandler))
+Timer_Ctrl.c (mpu6050):void TMR0_IRQHandler(void)
+---- UART_TRANS_ENABLE Matches (4 in 2 files) ----
+Config.h:#define UART_TRANS_ENABLE //ericyang 20160105
+Main.c:#ifdef UART_TRANS_ENABLE
+Main.c:#ifdef UART_TRANS_ENABLE
+Main.c:#ifdef UART_TRANS_ENABLE
+---- s_I2C0HandlerFn Matches (10 in 5 files) ----
+HDC1000.c (hdc1000):	s_I2C0HandlerFn = (I2C_FUNC)I2C_MasterTx_var;
+HDC1000.c (hdc1000):	s_I2C0HandlerFn = (I2C_FUNC)I2C_MasterRx_var;
+I2c0int.c:volatile I2C_FUNC s_I2C0HandlerFn = NULL;
+I2c0int.c:        if (s_I2C0HandlerFn != NULL)
+I2c0int.c:            s_I2C0HandlerFn(u32Status);
+I2c0int.h:extern volatile I2C_FUNC s_I2C0HandlerFn;
+LY096BG30.c (oled):	s_I2C0HandlerFn = (I2C_FUNC)I2C_MasterTx;
+LY096BG30.c (oled):	s_I2C0HandlerFn = (I2C_FUNC)I2C_MasterRx;
+MPU6050.c (mpu6050):	s_I2C0HandlerFn = (I2C_FUNC)I2C_MasterTx;
+MPU6050.c (mpu6050):	s_I2C0HandlerFn = (I2C_FUNC)I2C_MasterRx;
+---- Playback_KeypadHandler Matches (10 in 2 files) ----
+InputKeyActions.c:void Playback_KeypadHandler(UINT32 u32Param)
+InputKeyActions.c:			Playback_KeypadHandler(0);
+InputKeyActions.c:			Playback_KeypadHandler(0);
+NuLiteEx.htm (keil\nuliteex):<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Playback_KeypadHandler
+NuLiteEx.htm (keil\nuliteex):<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Playback_KeypadHandler
+NuLiteEx.htm (keil\nuliteex):<BR><BR>[Stack]<UL><LI>Max Depth = 352<LI>Call Chain = Default_KeyHandler &rArr; Playback_KeypadHandler &rArr; App_StartPlay &rArr; NuLiteExApp_DecodeStartPlayByID &rArr; NuLiteExApp_DecodeStartPlayByAddr &rArr; NuLiteExApp_DecodeProcess &rArr; NuLiteEx_DecodeProcess &rArr; NuLiteXCodec_DecodeProcess &rArr; f_decoder &rArr; f_decode_vector_quantized_mlt_indices
+NuLiteEx.htm (keil\nuliteex):<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Playback_KeypadHandler
+NuLiteEx.htm (keil\nuliteex):<P><STRONG><a name="[c2]"></a>Playback_KeypadHandler</STRONG> (Thumb, 52 bytes, Stack size 8 bytes, inputkeyactions.o(i.Playback_KeypadHandler))
+NuLiteEx.htm (keil\nuliteex):<BR><BR>[Stack]<UL><LI>Max Depth = 344<LI>Call Chain = Playback_KeypadHandler &rArr; App_StartPlay &rArr; NuLiteExApp_DecodeStartPlayByID &rArr; NuLiteExApp_DecodeStartPlayByAddr &rArr; NuLiteExApp_DecodeProcess &rArr; NuLiteEx_DecodeProcess &rArr; NuLiteXCodec_DecodeProcess &rArr; f_decoder &rArr; f_decode_vector_quantized_mlt_indices
+NuLiteEx.htm (keil\nuliteex):<BR>[Called By]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Playback_KeypadHandler
+---- ADC_Resume Matches (1 in 1 files) ----
+Main.c:									// Use ADC_Resume() to start ADC operation.

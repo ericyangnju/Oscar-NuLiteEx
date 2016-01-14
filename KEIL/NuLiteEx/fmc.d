@@ -1,8 +1,8 @@
 .\nuliteex\fmc.o: ..\..\..\..\Library\StdDriver\src\fmc.c
-.\nuliteex\fmc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\nuliteex\fmc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\nuliteex\fmc.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\fmc.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\fmc.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\fmc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\fmc.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\fmc.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\fmc.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h

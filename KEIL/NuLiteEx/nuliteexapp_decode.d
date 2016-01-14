@@ -1,11 +1,11 @@
 .\nuliteex\nuliteexapp_decode.o: ..\NuLiteExApp\NuLiteExApp_Decode.c
-.\nuliteex\nuliteexapp_decode.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\nuliteex\nuliteexapp_decode.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\nuliteex\nuliteexapp_decode.o: ..\NuLiteExApp\NuLiteExApp_Decode.h
 .\nuliteex\nuliteexapp_decode.o: ..\ConfigApp.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\nuliteexapp_decode.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\nuliteexapp_decode.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -33,7 +33,7 @@
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\nuliteexapp_decode.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\nuliteexapp_decode.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\nuliteexapp_decode.o: ..\ConfigIP.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h
 .\nuliteex\nuliteexapp_decode.o: ..\..\..\..\Library\Framework\inc\SysInfra.h

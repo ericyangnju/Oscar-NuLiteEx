@@ -1,13 +1,13 @@
 Dependencies for Project 'NuLiteEx', Target 'NuLiteEx': (DO NOT MODIFY !)
 F (..\Readme.txt)(0x554826D2)()
 F (..\Readme_FileInfo.txt)(0x554826D2)()
-F (..\main.c)(0x554826D2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\main.o --omf_browse .\nuliteex\main.crf --depend .\nuliteex\main.d)
+F (..\main.c)(0x568B5A33)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\main.o --omf_browse .\nuliteex\main.crf --depend .\nuliteex\main.d)
 I (..\App.h)(0x554826D2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -20,7 +20,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -31,10 +31,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
@@ -51,17 +51,27 @@ I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 I (..\SpiFlashMap.h)(0x554826D2)
-I (..\ConfigIO.h)(0x554826D2)
+I (..\ConfigIO.h)(0x568B2419)
 I (..\ConfigSysClk.h)(0x554826D2)
 I (..\..\..\..\Library\Framework\inc\SysClk.h)(0x554826BC)
 I (..\..\..\..\Library\Framework\inc\MicSpk.h)(0x554826BA)
-F (..\AppFunctions.c)(0x55482610)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\appfunctions.o --omf_browse .\nuliteex\appfunctions.crf --depend .\nuliteex\appfunctions.d)
+I (..\config.h)(0x568B3312)
+I (..\./OLED/LY096BG30.h)(0x563C5AD4)
+I (..\./HDC1000/HDC1000.h)(0x5635BBA8)
+I (..\./MPU6050/MPU6050_api.h)(0x563C5B95)
+I (..\./MPU6050/MPU6050.h)(0x56418EC1)
+I (..\./MPU6050/AHRSLib.h)(0x561E0DF8)
+I (..\./MPU6050/Sensors.h)(0x5551B2DC)
+I (..\./MPU6050/Def.h)(0x55407404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (..\./MPU6050/Timer_Ctrl.h)(0x553A22DE)
+F (..\AppFunctions.c)(0x55482610)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\appfunctions.o --omf_browse .\nuliteex\appfunctions.crf --depend .\nuliteex\appfunctions.d)
 I (..\App.h)(0x554826D2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -74,7 +84,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -85,10 +95,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
@@ -105,17 +115,17 @@ I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 I (..\SpiFlashMap.h)(0x554826D2)
-I (..\ConfigIO.h)(0x554826D2)
+I (..\ConfigIO.h)(0x568B2419)
 I (..\..\..\..\Library\Framework\inc\MicSpk.h)(0x554826BA)
 I (..\..\..\..\Library\Framework\inc\AudioRom.h)(0x554826BA)
-I (..\AudioRes/Output/AudioRes_AudioInfo.h)(0x554826D2)
-F (..\AppCallback.c)(0x554826D2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\appcallback.o --omf_browse .\nuliteex\appcallback.crf --depend .\nuliteex\appcallback.d)
+I (..\AudioRes/Output/AudioRes_AudioInfo.h)(0x568B5A4F)
+F (..\AppCallback.c)(0x554826D2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\appcallback.o --omf_browse .\nuliteex\appcallback.crf --depend .\nuliteex\appcallback.d)
 I (..\App.h)(0x554826D2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -128,7 +138,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -139,10 +149,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
@@ -159,14 +169,14 @@ I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 I (..\SpiFlashMap.h)(0x554826D2)
-I (..\ConfigIO.h)(0x554826D2)
-F (..\InputKeyActions.c)(0x554826D2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\inputkeyactions.o --omf_browse .\nuliteex\inputkeyactions.crf --depend .\nuliteex\inputkeyactions.d)
+I (..\ConfigIO.h)(0x568B2419)
+F (..\InputKeyActions.c)(0x5652697F)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\inputkeyactions.o --omf_browse .\nuliteex\inputkeyactions.crf --depend .\nuliteex\inputkeyactions.d)
 I (..\App.h)(0x554826D2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -179,7 +189,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -190,10 +200,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
@@ -210,13 +220,15 @@ I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 I (..\SpiFlashMap.h)(0x554826D2)
-I (..\ConfigIO.h)(0x554826D2)
-F (..\InterruptHandler.c)(0x554826D2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\interrupthandler.o --omf_browse .\nuliteex\interrupthandler.crf --depend .\nuliteex\interrupthandler.d)
+I (..\ConfigIO.h)(0x568B2419)
+I (..\./OLED/LY096BG30.h)(0x563C5AD4)
+I (..\config.h)(0x568B3312)
+F (..\InterruptHandler.c)(0x568B2E73)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\interrupthandler.o --omf_browse .\nuliteex\interrupthandler.crf --depend .\nuliteex\interrupthandler.d)
 I (..\..\..\..\Library\Framework\inc\Framework.h)(0x554826BA)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -229,7 +241,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -240,10 +252,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
@@ -254,13 +266,13 @@ I (..\InState.h)(0x554826D2)
 I (..\..\..\..\Library\Framework\inc\UltraIO.h)(0x554826BC)
 I (..\ConfigUltraIO.h)(0x554826D2)
 I (..\..\..\..\Library\Framework\inc\PdmaCtrl.h)(0x554826BC)
-F (..\Powerdown.c)(0x5548370E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\powerdown.o --omf_browse .\nuliteex\powerdown.crf --depend .\nuliteex\powerdown.d)
+F (..\Powerdown.c)(0x5548370E)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\powerdown.o --omf_browse .\nuliteex\powerdown.crf --depend .\nuliteex\powerdown.d)
 I (..\App.h)(0x554826D2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -273,7 +285,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -284,10 +296,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
@@ -304,21 +316,53 @@ I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 I (..\SpiFlashMap.h)(0x554826D2)
-I (..\ConfigIO.h)(0x554826D2)
+I (..\ConfigIO.h)(0x568B2419)
 I (..\ConfigSysClk.h)(0x554826D2)
 I (..\..\..\..\Library\Framework\inc\SysClk.h)(0x554826BC)
+F (..\I2c0int.c)(0x568B2658)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\i2c0int.o --omf_browse .\nuliteex\i2c0int.crf --depend .\nuliteex\i2c0int.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\isd9100.h)(0x554826B4)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x554826BC)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
+I (..\I2c0int.h)(0x5642ECFF)
+I (..\config.h)(0x568B3312)
 F (..\SPIFlashMap.h)(0x554826D2)()
 F (..\App.h)(0x554826D2)()
 F (..\ConfigApp.h)(0x554826D2)()
 F (..\ConfigSysClk.h)(0x554826D2)()
 F (..\ConfigUltraIO.h)(0x554826D2)()
-F (..\ConfigIO.h)(0x554826D2)()
+F (..\ConfigIO.h)(0x568B2419)()
 F (..\ConfigIP.h)(0x55482610)()
 F (..\InState.h)(0x554826D2)()
-F (..\AudioRes\AudioRes.uid)(0x554826D2)()
+F (..\AudioRes\AudioRes.uid)(0x5652D67B)()
 F (..\AudioRes\WAVTable_Middle.idt)(0x554826D2)()
-F (..\..\..\..\Library\Device\Nuvoton\ISD9100\Source\system_ISD9100.c)(0x554826B8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\system_isd9100.o --omf_browse .\nuliteex\system_isd9100.crf --depend .\nuliteex\system_isd9100.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+F (..\..\..\..\Library\Device\Nuvoton\ISD9100\Source\system_ISD9100.c)(0x554826B8)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\system_isd9100.o --omf_browse .\nuliteex\system_isd9100.crf --depend .\nuliteex\system_isd9100.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
@@ -333,7 +377,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -344,17 +388,17 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (.\startup_ISD9100.s)(0x554826D2)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 513" --pd "__ISD9100__ SETA 1"--list .\nuliteex\startup_isd9100.lst --xref -o .\nuliteex\startup_isd9100.o --depend .\nuliteex\startup_isd9100.d)
-F (..\NuLiteExApp\NuLiteExApp_Decode.c)(0x5577A774)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\nuliteexapp_decode.o --omf_browse .\nuliteex\nuliteexapp_decode.crf --depend .\nuliteex\nuliteexapp_decode.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (.\startup_ISD9100.s)(0x554826D2)(--cpu Cortex-M0 -g --apcs=interwork -I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 516" --pd "__ISD9100__ SETA 1"--list .\nuliteex\startup_isd9100.lst --xref -o .\nuliteex\startup_isd9100.o --depend .\nuliteex\startup_isd9100.d)
+F (..\NuLiteExApp\NuLiteExApp_Decode.c)(0x5577A774)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\nuliteexapp_decode.o --omf_browse .\nuliteex\nuliteexapp_decode.crf --depend .\nuliteex\nuliteexapp_decode.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
 I (..\NuLiteExApp\NuLiteExApp_Decode.h)(0x55482612)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -367,7 +411,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -378,10 +422,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
@@ -392,13 +436,13 @@ I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Framework\inc\AudioRom.h)(0x554826BA)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 F (..\NuLiteExApp\NuLiteExApp_Decode.h)(0x55482612)()
-F (..\..\..\..\Library\Framework\src\AudioMixer.c)(0x554825F8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\audiomixer.o --omf_browse .\nuliteex\audiomixer.crf --depend .\nuliteex\audiomixer.d)
+F (..\..\..\..\Library\Framework\src\AudioMixer.c)(0x554825F8)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\audiomixer.o --omf_browse .\nuliteex\audiomixer.crf --depend .\nuliteex\audiomixer.d)
 I (..\..\..\..\Library\Framework\inc\AudioMixer.h)(0x554826BA)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -411,7 +455,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -422,21 +466,21 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
 I (..\..\..\..\Library\Framework\inc\ModuleID.h)(0x554826BA)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
-F (..\..\..\..\Library\Framework\src\AudioRom.c)(0x554826BC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\audiorom.o --omf_browse .\nuliteex\audiorom.crf --depend .\nuliteex\audiorom.d)
+F (..\..\..\..\Library\Framework\src\AudioRom.c)(0x554826BC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\audiorom.o --omf_browse .\nuliteex\audiorom.crf --depend .\nuliteex\audiorom.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\PlatForm.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -449,7 +493,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -460,18 +504,18 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Framework\inc\AudioRom.h)(0x554826BA)
 I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
-F (..\..\..\..\Library\Framework\src\BufCtrl.c)(0x554825F8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\bufctrl.o --omf_browse .\nuliteex\bufctrl.crf --depend .\nuliteex\bufctrl.d)
+F (..\..\..\..\Library\Framework\src\BufCtrl.c)(0x554825F8)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\bufctrl.o --omf_browse .\nuliteex\bufctrl.crf --depend .\nuliteex\bufctrl.d)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -484,7 +528,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -495,15 +539,15 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-F (..\..\..\..\Library\Framework\src\ConfigIO.c)(0x554826BC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\configio.o --omf_browse .\nuliteex\configio.crf --depend .\nuliteex\configio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+F (..\..\..\..\Library\Framework\src\ConfigIO.c)(0x554826BC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\configio.o --omf_browse .\nuliteex\configio.crf --depend .\nuliteex\configio.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -516,7 +560,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -527,22 +571,22 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
 I (..\..\..\..\Library\Framework\inc\ModuleID.h)(0x554826BA)
 I (..\..\..\..\Library\IO\inc\Keypad.h)(0x554826BC)
-I (..\ConfigIO.h)(0x554826D2)
-F (..\..\..\..\Library\Framework\src\MicSpk.c)(0x554826BC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\micspk.o --omf_browse .\nuliteex\micspk.crf --depend .\nuliteex\micspk.d)
+I (..\ConfigIO.h)(0x568B2419)
+F (..\..\..\..\Library\Framework\src\MicSpk.c)(0x554826BC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\micspk.o --omf_browse .\nuliteex\micspk.crf --depend .\nuliteex\micspk.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -555,7 +599,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -566,10 +610,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
@@ -577,13 +621,13 @@ I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
 I (..\..\..\..\Library\Framework\inc\ModuleID.h)(0x554826BA)
 I (..\..\..\..\Library\Framework\inc\MicSpk.h)(0x554826BA)
 I (..\..\..\..\Library\Framework\inc\PdmaCtrl.h)(0x554826BC)
-F (..\..\..\..\Library\Framework\src\Playback.c)(0x554825F8)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\playback.o --omf_browse .\nuliteex\playback.crf --depend .\nuliteex\playback.d)
+F (..\..\..\..\Library\Framework\src\Playback.c)(0x554825F8)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\playback.o --omf_browse .\nuliteex\playback.crf --depend .\nuliteex\playback.d)
 I (..\App.h)(0x554826D2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -596,7 +640,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -607,10 +651,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
@@ -627,15 +671,15 @@ I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Framework\inc\PlaybackRecord.h)(0x554825F8)
 I (..\SpiFlashMap.h)(0x554826D2)
-I (..\ConfigIO.h)(0x554826D2)
+I (..\ConfigIO.h)(0x568B2419)
 I (..\..\..\..\Library\Framework\inc\MicSpk.h)(0x554826BA)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\..\..\..\Library\Framework\src\SPIFlashUtil.c)(0x554826BC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\spiflashutil.o --omf_browse .\nuliteex\spiflashutil.crf --depend .\nuliteex\spiflashutil.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+F (..\..\..\..\Library\Framework\src\SPIFlashUtil.c)(0x554826BC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\spiflashutil.o --omf_browse .\nuliteex\spiflashutil.crf --depend .\nuliteex\spiflashutil.d)
 I (..\..\..\..\Library\Framework\inc\SPIFlashUtil.h)(0x554826BC)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -648,7 +692,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -659,22 +703,22 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Framework\inc\BufCtrl.h)(0x554825F6)
 I (..\..\..\..\Library\Audio\inc\AudioCommon.h)(0x5548269C)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
 I (..\..\..\..\Library\Framework\inc\ModuleID.h)(0x554826BA)
-F (..\..\..\..\Library\Framework\src\UltraIO.c)(0x55519232)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\ultraio.o --omf_browse .\nuliteex\ultraio.crf --depend .\nuliteex\ultraio.d)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
+F (..\..\..\..\Library\Framework\src\UltraIO.c)(0x55519232)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\ultraio.o --omf_browse .\nuliteex\ultraio.crf --depend .\nuliteex\ultraio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Framework\inc\Framework.h)(0x554826BA)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -687,7 +731,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -698,10 +742,10 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\ConfigApp.h)(0x554826D2)
 I (..\ConfigIP.h)(0x55482610)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
@@ -712,11 +756,11 @@ I (..\InState.h)(0x554826D2)
 I (..\..\..\..\Library\Framework\inc\UltraIO.h)(0x554826BC)
 I (..\ConfigUltraIO.h)(0x554826D2)
 I (..\..\..\..\Library\Framework\inc\PdmaCtrl.h)(0x554826BC)
-F (..\..\..\..\Library\Framework\src\SysClk.c)(0x554826BC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\sysclk.o --omf_browse .\nuliteex\sysclk.crf --depend .\nuliteex\sysclk.d)
+F (..\..\..\..\Library\Framework\src\SysClk.c)(0x554826BC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\sysclk.o --omf_browse .\nuliteex\sysclk.crf --depend .\nuliteex\sysclk.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -729,7 +773,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -740,16 +784,16 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-F (..\..\..\..\Library\Framework\src\PdmaCtrl.c)(0x554826BC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\pdmactrl.o --omf_browse .\nuliteex\pdmactrl.crf --depend .\nuliteex\pdmactrl.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+F (..\..\..\..\Library\Framework\src\PdmaCtrl.c)(0x554826BC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\pdmactrl.o --omf_browse .\nuliteex\pdmactrl.crf --depend .\nuliteex\pdmactrl.d)
 I (..\..\..\..\Library\Framework\inc\PdmaCtrl.h)(0x554826BC)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -762,7 +806,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -773,16 +817,16 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
-F (..\..\..\..\Library\Storage\src\SPIFlash.c)(0x554826C4)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\spiflash.o --omf_browse .\nuliteex\spiflash.crf --depend .\nuliteex\spiflash.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
+F (..\..\..\..\Library\Storage\src\SPIFlash.c)(0x554826C4)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\spiflash.o --omf_browse .\nuliteex\spiflash.crf --depend .\nuliteex\spiflash.d)
 I (..\..\..\..\Library\Storage\inc\SPIFlash.h)(0x554826C2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -795,7 +839,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -806,18 +850,18 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Framework\inc\SysInfra.h)(0x554826BC)
 I (..\..\..\..\Library\Framework\inc\ModuleID.h)(0x554826BA)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\..\..\..\Library\IO\src\Keypad.c)(0x554826BC)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\keypad.o --omf_browse .\nuliteex\keypad.crf --depend .\nuliteex\keypad.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+F (..\..\..\..\Library\IO\src\Keypad.c)(0x554826BC)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\keypad.o --omf_browse .\nuliteex\keypad.crf --depend .\nuliteex\keypad.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h)(0x554826B6)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -830,7 +874,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -841,16 +885,16 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h)(0x554826B6)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x55AEF5F2)
 I (..\..\..\..\Library\IO\inc\Keypad.h)(0x554826BC)
-I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5475F300)
-F (..\..\..\..\Library\StdDriver\src\acmp.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\acmp.o --omf_browse .\nuliteex\acmp.crf --depend .\nuliteex\acmp.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+F (..\..\..\..\Library\StdDriver\src\acmp.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\acmp.o --omf_browse .\nuliteex\acmp.crf --depend .\nuliteex\acmp.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -863,7 +907,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -874,12 +918,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\adc.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\adc.o --omf_browse .\nuliteex\adc.crf --depend .\nuliteex\adc.d)
+F (..\..\..\..\Library\StdDriver\src\adc.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\adc.o --omf_browse .\nuliteex\adc.crf --depend .\nuliteex\adc.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -892,7 +936,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -903,12 +947,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\biq.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\biq.o --omf_browse .\nuliteex\biq.crf --depend .\nuliteex\biq.d)
+F (..\..\..\..\Library\StdDriver\src\biq.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\biq.o --omf_browse .\nuliteex\biq.crf --depend .\nuliteex\biq.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -921,7 +965,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -932,12 +976,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\bod.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\bod.o --omf_browse .\nuliteex\bod.crf --depend .\nuliteex\bod.d)
+F (..\..\..\..\Library\StdDriver\src\bod.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\bod.o --omf_browse .\nuliteex\bod.crf --depend .\nuliteex\bod.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -950,7 +994,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -961,13 +1005,13 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\capsense.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\capsense.o --omf_browse .\nuliteex\capsense.crf --depend .\nuliteex\capsense.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Library\StdDriver\src\capsense.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\capsense.o --omf_browse .\nuliteex\capsense.crf --depend .\nuliteex\capsense.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -980,7 +1024,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -991,12 +1035,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\clk.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\clk.o --omf_browse .\nuliteex\clk.crf --depend .\nuliteex\clk.d)
+F (..\..\..\..\Library\StdDriver\src\clk.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\clk.o --omf_browse .\nuliteex\clk.crf --depend .\nuliteex\clk.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1009,7 +1053,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1020,13 +1064,13 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\CRC.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\crc.o --omf_browse .\nuliteex\crc.crf --depend .\nuliteex\crc.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Library\StdDriver\src\CRC.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\crc.o --omf_browse .\nuliteex\crc.crf --depend .\nuliteex\crc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1039,7 +1083,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1050,12 +1094,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\dpwm.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\dpwm.o --omf_browse .\nuliteex\dpwm.crf --depend .\nuliteex\dpwm.d)
+F (..\..\..\..\Library\StdDriver\src\dpwm.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\dpwm.o --omf_browse .\nuliteex\dpwm.crf --depend .\nuliteex\dpwm.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1068,7 +1112,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1079,13 +1123,13 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\fmc.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\fmc.o --omf_browse .\nuliteex\fmc.crf --depend .\nuliteex\fmc.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Library\StdDriver\src\fmc.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\fmc.o --omf_browse .\nuliteex\fmc.crf --depend .\nuliteex\fmc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1098,7 +1142,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1109,12 +1153,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\gpio.o --omf_browse .\nuliteex\gpio.crf --depend .\nuliteex\gpio.d)
+F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\gpio.o --omf_browse .\nuliteex\gpio.crf --depend .\nuliteex\gpio.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1127,7 +1171,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1138,12 +1182,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\i2c.c)(0x554826C0)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\i2c.o --omf_browse .\nuliteex\i2c.crf --depend .\nuliteex\i2c.d)
+F (..\..\..\..\Library\StdDriver\src\i2c.c)(0x554826C0)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\i2c.o --omf_browse .\nuliteex\i2c.crf --depend .\nuliteex\i2c.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1156,7 +1200,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1167,13 +1211,13 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\i2s.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\i2s.o --omf_browse .\nuliteex\i2s.crf --depend .\nuliteex\i2s.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Library\StdDriver\src\i2s.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\i2s.o --omf_browse .\nuliteex\i2s.crf --depend .\nuliteex\i2s.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1186,7 +1230,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1197,12 +1241,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\pdma.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\pdma.o --omf_browse .\nuliteex\pdma.crf --depend .\nuliteex\pdma.d)
+F (..\..\..\..\Library\StdDriver\src\pdma.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\pdma.o --omf_browse .\nuliteex\pdma.crf --depend .\nuliteex\pdma.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1215,7 +1259,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1226,12 +1270,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\pwm.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\pwm.o --omf_browse .\nuliteex\pwm.crf --depend .\nuliteex\pwm.d)
+F (..\..\..\..\Library\StdDriver\src\pwm.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\pwm.o --omf_browse .\nuliteex\pwm.crf --depend .\nuliteex\pwm.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1244,7 +1288,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1255,13 +1299,13 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\retarget.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\retarget.o --omf_browse .\nuliteex\retarget.crf --depend .\nuliteex\retarget.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Library\StdDriver\src\retarget.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\retarget.o --omf_browse .\nuliteex\retarget.crf --depend .\nuliteex\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1274,7 +1318,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1285,13 +1329,13 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\rtc.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\rtc.o --omf_browse .\nuliteex\rtc.crf --depend .\nuliteex\rtc.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Library\StdDriver\src\rtc.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\rtc.o --omf_browse .\nuliteex\rtc.crf --depend .\nuliteex\rtc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1304,7 +1348,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1315,12 +1359,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\spi.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\spi.o --omf_browse .\nuliteex\spi.crf --depend .\nuliteex\spi.d)
+F (..\..\..\..\Library\StdDriver\src\spi.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\spi.o --omf_browse .\nuliteex\spi.crf --depend .\nuliteex\spi.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1333,7 +1377,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1344,12 +1388,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\sys.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\sys.o --omf_browse .\nuliteex\sys.crf --depend .\nuliteex\sys.d)
+F (..\..\..\..\Library\StdDriver\src\sys.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\sys.o --omf_browse .\nuliteex\sys.crf --depend .\nuliteex\sys.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1362,7 +1406,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1373,12 +1417,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\talarm.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\talarm.o --omf_browse .\nuliteex\talarm.crf --depend .\nuliteex\talarm.d)
+F (..\..\..\..\Library\StdDriver\src\talarm.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\talarm.o --omf_browse .\nuliteex\talarm.crf --depend .\nuliteex\talarm.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1391,7 +1435,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1402,12 +1446,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\timer.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\timer.o --omf_browse .\nuliteex\timer.crf --depend .\nuliteex\timer.d)
+F (..\..\..\..\Library\StdDriver\src\timer.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\timer.o --omf_browse .\nuliteex\timer.crf --depend .\nuliteex\timer.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1420,7 +1464,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1431,13 +1475,13 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\uart.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\uart.o --omf_browse .\nuliteex\uart.crf --depend .\nuliteex\uart.d)
-I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
+F (..\..\..\..\Library\StdDriver\src\uart.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\uart.o --omf_browse .\nuliteex\uart.crf --depend .\nuliteex\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1450,7 +1494,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1461,12 +1505,12 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
-F (..\..\..\..\Library\StdDriver\src\wdt.c)(0x554826C2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="513" -D__ISD9100__-o .\nuliteex\wdt.o --omf_browse .\nuliteex\wdt.crf --depend .\nuliteex\wdt.d)
+F (..\..\..\..\Library\StdDriver\src\wdt.c)(0x554826C2)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\wdt.o --omf_browse .\nuliteex\wdt.crf --depend .\nuliteex\wdt.d)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h)(0x554826B4)
 I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
 I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
 I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
 I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
@@ -1479,7 +1523,7 @@ I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
-I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E58148)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
 I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
@@ -1490,7 +1534,7 @@ I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
 I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
 I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
-I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA183)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
 I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
 F (..\..\..\..\Library\Audio\arm\ImaAdpcm_Keil.lib)(0x5548257A)()
 F (..\..\..\..\Library\Audio\arm\LP8_Keil.lib)(0x5548257A)()
@@ -1500,3 +1544,150 @@ F (..\..\..\..\Library\Audio\arm\NuOneEx_Keil.lib)(0x55482586)()
 F (..\..\..\..\Library\Audio\arm\NuSoundEx_Keil.lib)(0x55482586)()
 F (..\..\..\..\Library\Audio\arm\NuVoxEx_Keil.lib)(0x55482588)()
 F (..\..\..\..\Library\Audio\arm\P16_Keil.lib)(0x55482588)()
+F (..\OLED\LY096BG30.c)(0x5642EEE1)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\ly096bg30.o --omf_browse .\nuliteex\ly096bg30.crf --depend .\nuliteex\ly096bg30.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x55AEF5F2)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\isd9100.h)(0x554826B4)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x554826BC)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
+I (..\OLED\LY096BG30.h)(0x563C5AD4)
+I (..\OLED\Font8x16.h)(0x55473342)
+I (..\OLED\../I2c0int.h)(0x5642ECFF)
+I (..\OLED\../config.h)(0x568B3312)
+F (..\HDC1000\HDC1000.c)(0x5642EDB6)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\hdc1000.o --omf_browse .\nuliteex\hdc1000.crf --depend .\nuliteex\hdc1000.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\isd9100.h)(0x554826B4)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x554826BC)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
+I (..\HDC1000\HDC1000.h)(0x5635BBA8)
+I (..\HDC1000\../I2c0int.h)(0x5642ECFF)
+I (..\HDC1000\../config.h)(0x568B3312)
+F (..\MPU6050\MPU6050.c)(0x5642EED4)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\mpu6050.o --omf_browse .\nuliteex\mpu6050.crf --depend .\nuliteex\mpu6050.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\isd9100.h)(0x554826B4)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x554826BC)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
+I (..\MPU6050\../I2c0int.h)(0x5642ECFF)
+I (..\MPU6050\../config.h)(0x568B3312)
+I (..\MPU6050\MPU6050.h)(0x56418EC1)
+F (..\MPU6050\MPU6050_api.c)(0x56418C86)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\mpu6050_api.o --omf_browse .\nuliteex\mpu6050_api.crf --depend .\nuliteex\mpu6050_api.d)
+I (..\MPU6050\MPU6050_api.h)(0x563C5B95)
+I (..\MPU6050\MPU6050.h)(0x56418EC1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\MPU6050\AHRSLib.h)(0x561E0DF8)
+I (..\MPU6050\Sensors.h)(0x5551B2DC)
+I (..\MPU6050\Def.h)(0x55407404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (..\MPU6050\Timer_Ctrl.h)(0x553A22DE)
+I (..\config.h)(0x568B3312)
+F (..\MPU6050\Timer_Ctrl.c)(0x564D4816)(--c99 -c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="516" -D__ISD9100__-o .\nuliteex\timer_ctrl.o --omf_browse .\nuliteex\timer_ctrl.crf --depend .\nuliteex\timer_ctrl.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x55AEF5F2)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x55AEF5F2)
+I (..\MPU6050\Def.h)(0x55407404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x55AEF5F2)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\isd9100.h)(0x554826B4)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x554826B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55AEF5F2)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x554826B0)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x554826B0)
+I (..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h)(0x554826B6)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x554826BC)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\biq.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\bod.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\capsense.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\crc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\dpwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55E5814A)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\i2s.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\osc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pdma.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\rtc.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x554826BE)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\talarm.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x554826C0)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x561CA184)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x554826C0)
+I (..\MPU6050\Timer_Ctrl.h)(0x553A22DE)
+I (..\MPU6050\AHRSLib.h)(0x561E0DF8)
+F (..\MPU6050\AHRSLibISD9100.lib)(0x5626EB04)()

@@ -3,7 +3,7 @@
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\bufctrl.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\bufctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -31,4 +31,4 @@
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\bufctrl.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\bufctrl.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\bufctrl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h

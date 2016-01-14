@@ -1,0 +1,10 @@
+.\nuliteex\mpu6050_api.o: ..\MPU6050\MPU6050_api.c
+.\nuliteex\mpu6050_api.o: ..\MPU6050\MPU6050_api.h
+.\nuliteex\mpu6050_api.o: ..\MPU6050\MPU6050.h
+.\nuliteex\mpu6050_api.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\nuliteex\mpu6050_api.o: ..\MPU6050\AHRSLib.h
+.\nuliteex\mpu6050_api.o: ..\MPU6050\Sensors.h
+.\nuliteex\mpu6050_api.o: ..\MPU6050\Def.h
+.\nuliteex\mpu6050_api.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\nuliteex\mpu6050_api.o: ..\MPU6050\Timer_Ctrl.h
+.\nuliteex\mpu6050_api.o: ..\config.h

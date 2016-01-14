@@ -48,7 +48,44 @@
 //TRIGGER_PORT
 #define TRIGGER_PORTA_PINS_MASK		(TG1_PIN_MASK|TG2_PIN_MASK|TG3_PIN_MASK)
 #define TRIGGER_PORTB_PINS_MASK		(0)
+#if 1 //ericyang 20160105 
+//------------------------------------------------------------------------------------------------//
+// Configurations of Output Keys
+//------------------------------------------------------------------------------------------------//
+#define OUT_KEY_COUNT		(6)
 
+//OUT1
+#define OUT1_PORT				PA
+#define OUT1_PIN_MASK			BIT4
+//OUT2
+#define OUT2_PORT				PA
+#define OUT2_PIN_MASK			BIT11
+//OUT3
+#define OUT3_PORT				PA
+#define OUT3_PIN_MASK			BIT13
+//OUT4
+#define OUT4_PORT				PB
+#define OUT4_PIN_MASK			BIT5
+//OUT5
+#define OUT5_PORT				PB
+#define OUT5_PIN_MASK			BIT6
+//OUT6
+#define OUT6_PORT				PB
+#define OUT6_PIN_MASK			BIT7
+//OUTPUT_PORT
+#define OUTPUT_PORTA_PINS_MASK		(OUT1_PIN_MASK|OUT2_PIN_MASK|OUT3_PIN_MASK)
+#define OUTPUT_PORTB_PINS_MASK		(OUT4_PIN_MASK|OUT5_PIN_MASK|OUT6_PIN_MASK)
+
+extern void OutputPin_Set(GPIO_T *pPort, UINT16 u16PinMask, UINT8 u8Value);
+
+#define	OUT1(b)		OutputPin_Set(OUT1_PORT,OUT1_PIN_MASK,b)
+#define	OUT2(b)		OutputPin_Set(OUT2_PORT,OUT2_PIN_MASK,b)
+#define	OUT3(b)		OutputPin_Set(OUT3_PORT,OUT3_PIN_MASK,b)
+#define	OUT4(b)		OutputPin_Set(OUT4_PORT,OUT4_PIN_MASK,b)
+#define	OUT5(b)		OutputPin_Set(OUT5_PORT,OUT5_PIN_MASK,b)
+#define	OUT6(b)		OutputPin_Set(OUT6_PORT,OUT6_PIN_MASK,b)
+
+#else
 //------------------------------------------------------------------------------------------------//
 // Configurations of Output Keys
 //------------------------------------------------------------------------------------------------//
@@ -84,7 +121,7 @@ extern void OutputPin_Set(GPIO_T *pPort, UINT16 u16PinMask, UINT8 u8Value);
 #define	OUT4(b)		OutputPin_Set(OUT4_PORT,OUT4_PIN_MASK,b)
 #define	OUT5(b)		OutputPin_Set(OUT5_PORT,OUT5_PIN_MASK,b)
 #define	OUT6(b)		OutputPin_Set(OUT6_PORT,OUT6_PIN_MASK,b)
-
+#endif  //
 //------------------------------------------------------------------------------------------------//
 // Configurations of KEY (key matrix) Handlers
 //------------------------------------------------------------------------------------------------//
@@ -122,7 +159,6 @@ extern void OutputPin_Set(GPIO_T *pPort, UINT16 u16PinMask, UINT8 u8Value);
 //------------------------------------------------------------------------------------------------//
 extern void Default_KeyHandler(UINT32 u32Param);
 
-
 #define DECLARE_MATRIX_KEY() \
 S_KEYPAD_KEY_HANDLER const g_asMatrixKeyHandler[] =  \
 {  \
@@ -135,7 +171,6 @@ S_KEYPAD_KEY_HANDLER const g_asMatrixKeyHandler[] =  \
 #else
 #define DECLARE_MATRIX_KEY_BUF()
 #endif
-
 //------------------------------------------------------------------------------------------------//
 
 #define	DECLARE_TRIGGER_KEY() \
@@ -156,7 +191,6 @@ S_KEYPAD_TGR_HANDLER const g_asTriggerKeyHandler[] =  \
 
 
 //%{CodeGen_Block_End}
-
 extern void Default_KeyHandler(UINT32 u32Param);
 
 //------------------------------------------------------------------------------------------------//
@@ -251,5 +285,4 @@ S_KEYPAD_TOUCH_THRESHOLD const KEYPAD_TOUCH_THRESHOLD[]= 	\
 #else
 #define DECLARE_TOUCH_THRESHOLD()
 #endif
-	
 #endif

@@ -110,7 +110,7 @@ I (..\SpiFlashMap.h)(0x554826D2)
 I (..\ConfigIO.h)(0x5636DE3E)
 I (..\..\..\..\Library\Framework\inc\MicSpk.h)(0x554826BA)
 I (..\..\..\..\Library\Framework\inc\AudioRom.h)(0x554826BA)
-I (..\AudioRes/Output/AudioRes_AudioInfo.h)(0x5652D67D)
+I (..\AudioRes/Output/AudioRes_AudioInfo.h)(0x565BE65D)
 F (..\AppCallback.c)(0x554826D2)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork --split_sections -I. -I..\..\..\..\Library\Device\Nuvoton\ISD9100\Include -I..\..\..\..\Library\Framework\inc -I..\..\..\..\Library\IO\inc -I..\..\..\..\Library\Audio\inc -I..\..\..\..\Library\StdDriver\inc -I..\..\..\..\Library\Storage\inc -I..\..\..\..\Library\CMSIS\Include -I..\-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D__ISD9100__-o .\nuliteex\appcallback.o --omf_browse .\nuliteex\appcallback.crf --depend .\nuliteex\appcallback.d)
 I (..\App.h)(0x554826D2)
 I (..\ConfigApp.h)(0x554826D2)

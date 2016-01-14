@@ -114,7 +114,7 @@ void I2C_MasterTx(uint32_t u32Status)
        // printf("Status 0x%x is NOT processed\n", u32Status);
     }
 }
-#if 0
+#if 1
 void I2C_MasterRx_var(uint32_t u32Status)
 {
 	uint16_t i=0;

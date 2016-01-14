@@ -3,7 +3,7 @@
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\spiflashutil.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\spiflashutil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -31,7 +31,7 @@
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\spiflashutil.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\spiflashutil.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\Framework\inc\BufCtrl.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\Audio\inc\AudioCommon.h
 .\nuliteex\spiflashutil.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h

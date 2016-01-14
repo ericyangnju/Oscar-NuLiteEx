@@ -2,7 +2,7 @@
 .\nuliteex\audiorom.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\PlatForm.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\audiorom.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\audiorom.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -30,6 +30,6 @@
 .\nuliteex\audiorom.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\audiorom.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\audiorom.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\Framework\inc\AudioRom.h
 .\nuliteex\audiorom.o: ..\..\..\..\Library\Audio\inc\AudioCommon.h

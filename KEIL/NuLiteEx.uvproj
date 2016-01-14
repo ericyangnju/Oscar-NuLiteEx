@@ -10,6 +10,7 @@
       <TargetName>NuLiteEx</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>5060020::V5.06 (build 20)::ARMCC</pCCUsed>
       <TargetOption>
         <TargetCommonOption>
           <Device>ISD9160</Device>
@@ -82,6 +83,8 @@
             <UserProg2Name>"C:\Nuvoton NuVoice Tool\Utility\PadFile.exe" --size=0x23400 --pad=0xff  "$L@L.bin"</UserProg2Name>
             <UserProg1Dos16Mode>0</UserProg1Dos16Mode>
             <UserProg2Dos16Mode>0</UserProg2Dos16Mode>
+            <nStopA1X>0</nStopA1X>
+            <nStopA2X>0</nStopA2X>
           </AfterMake>
           <SelectedForBatchBuild>0</SelectedForBatchBuild>
           <SVCSIdString></SVCSIdString>
@@ -143,7 +146,6 @@
             <RestoreToolbox>1</RestoreToolbox>
             <RestoreTracepoints>0</RestoreTracepoints>
             <RestoreSysVw>1</RestoreSysVw>
-            <UsePdscDebugDescription>1</UsePdscDebugDescription>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
           <TargetSelection>15</TargetSelection>
@@ -226,6 +228,7 @@
             <useUlib>0</useUlib>
             <EndSel>0</EndSel>
             <uLtcg>0</uLtcg>
+            <nSecure>0</nSecure>
             <RoSelD>3</RoSelD>
             <RwSelD>3</RwSelD>
             <CodeSel>0</CodeSel>
@@ -358,8 +361,12 @@
             <wLevel>0</wLevel>
             <uThumb>0</uThumb>
             <uSurpInc>0</uSurpInc>
-            <uC99>0</uC99>
+            <uC99>1</uC99>
             <useXO>0</useXO>
+            <v6Lang>0</v6Lang>
+            <v6LangP>0</v6LangP>
+            <vShortEn>0</vShortEn>
+            <vShortWch>0</vShortWch>
             <VariousControls>
               <MiscControls></MiscControls>
               <Define>__ISD9100__</Define>
@@ -503,14 +510,14 @@
           <GroupName>AudioRes</GroupName>
           <Files>
             <File>
+              <FileName>AudioRes.uid</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\AudioRes\AudioRes.uid</FilePath>
+            </File>
+            <File>
               <FileName>WAVTable_Middle.idt</FileName>
               <FileType>5</FileType>
               <FilePath>..\AudioRes\WAVTable_Middle.idt</FilePath>
-            </File>
-            <File>
-              <FileName>AudioRes.uid</FileName>
-              <FileType>9</FileType>
-              <FilePath>..\AudioRes\AudioRes.uid</FilePath>
             </File>
           </Files>
         </Group>
@@ -786,6 +793,41 @@
               <FileName>LY096BG30.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\OLED\LY096BG30.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>HDC1000</GroupName>
+          <Files>
+            <File>
+              <FileName>HDC1000.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HDC1000\HDC1000.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>MPU6050</GroupName>
+          <Files>
+            <File>
+              <FileName>MPU6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MPU6050\MPU6050.c</FilePath>
+            </File>
+            <File>
+              <FileName>MPU6050_api.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MPU6050\MPU6050_api.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer_Ctrl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MPU6050\Timer_Ctrl.c</FilePath>
+            </File>
+            <File>
+              <FileName>AHRSLibISD9100.lib</FileName>
+              <FileType>4</FileType>
+              <FilePath>..\MPU6050\AHRSLibISD9100.lib</FilePath>
             </File>
           </Files>
         </Group>

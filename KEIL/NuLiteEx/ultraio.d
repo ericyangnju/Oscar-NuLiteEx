@@ -1,10 +1,10 @@
 .\nuliteex\ultraio.o: ..\..\..\..\Library\Framework\src\UltraIO.c
-.\nuliteex\ultraio.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\nuliteex\ultraio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\Framework\inc\Framework.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\ultraio.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\ultraio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -32,7 +32,7 @@
 .\nuliteex\ultraio.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\ultraio.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\ultraio.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\ultraio.o: ..\ConfigApp.h
 .\nuliteex\ultraio.o: ..\ConfigIP.h
 .\nuliteex\ultraio.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h

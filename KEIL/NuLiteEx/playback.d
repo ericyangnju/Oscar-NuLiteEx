@@ -4,7 +4,7 @@
 .\nuliteex\playback.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\playback.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\playback.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\playback.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\playback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\playback.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\playback.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\playback.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -32,7 +32,7 @@
 .\nuliteex\playback.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\playback.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\playback.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\playback.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\playback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\playback.o: ..\ConfigIP.h
 .\nuliteex\playback.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h
 .\nuliteex\playback.o: ..\..\..\..\Library\Framework\inc\SysInfra.h
@@ -51,4 +51,4 @@
 .\nuliteex\playback.o: ..\SpiFlashMap.h
 .\nuliteex\playback.o: ..\ConfigIO.h
 .\nuliteex\playback.o: ..\..\..\..\Library\Framework\inc\MicSpk.h
-.\nuliteex\playback.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\nuliteex\playback.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

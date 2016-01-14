@@ -3,7 +3,7 @@
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\interrupthandler.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\interrupthandler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -31,7 +31,7 @@
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\interrupthandler.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\interrupthandler.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\interrupthandler.o: ..\ConfigApp.h
 .\nuliteex\interrupthandler.o: ..\ConfigIP.h
 .\nuliteex\interrupthandler.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h

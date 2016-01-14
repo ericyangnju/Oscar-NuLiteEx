@@ -1,8 +1,8 @@
 .\nuliteex\capsense.o: ..\..\..\..\Library\StdDriver\src\capsense.c
-.\nuliteex\capsense.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\nuliteex\capsense.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\nuliteex\capsense.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\capsense.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\capsense.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\capsense.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\capsense.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\capsense.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\capsense.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h

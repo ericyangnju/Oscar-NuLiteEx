@@ -11,7 +11,9 @@
 #define I2C_TIMEOUT_NOVALIDACK_COUNT 0x20
 #define I2C_TIMEOUT_UNREACHABLE_COUNT 0x100
 #endif
-
+#define HDC1000_ENABLE //ericyang 20160105
+#define MPU6050_ENABLE //ericyang 20160105
+#define UART_TRANS_ENABLE //ericyang 20160105
 
 
 #endif //end of config.h

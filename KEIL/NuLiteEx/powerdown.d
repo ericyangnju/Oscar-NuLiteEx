@@ -4,7 +4,7 @@
 .\nuliteex\powerdown.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\Platform.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\ISD9100.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\CMSIS\Include\core_cm0.h
-.\nuliteex\powerdown.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\nuliteex\powerdown.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\CMSIS\Include\core_cmInstr.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\CMSIS\Include\core_cmFunc.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\system_ISD9100.h
@@ -32,7 +32,7 @@
 .\nuliteex\powerdown.o: ..\..\..\..\Library\StdDriver\inc\uart.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\StdDriver\inc\wdt.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\Device\Nuvoton\ISD9100\Include\NVTTypes.h
-.\nuliteex\powerdown.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+.\nuliteex\powerdown.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
 .\nuliteex\powerdown.o: ..\ConfigIP.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\Storage\inc\SPIFlash.h
 .\nuliteex\powerdown.o: ..\..\..\..\Library\Framework\inc\SysInfra.h

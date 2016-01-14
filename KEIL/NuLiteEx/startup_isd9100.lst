@@ -339,10 +339,11 @@ ARM Macro Assembler    Page 6
               00000400 
               00000200 
               00000000 
-Command Line: --debug --xref --cpu=Cortex-M0 --apcs=interwork --depend=.\nulite
-ex\startup_isd9100.d -o.\nuliteex\startup_isd9100.o -IC:\Keil_v5\ARM\RV31\INC -
-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include --predefine="__ISD9100__ SET
-A 1" --list=.\nuliteex\startup_isd9100.lst startup_ISD9100.s
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0 --apcs=interw
+ork --depend=.\nuliteex\startup_isd9100.d -o.\nuliteex\startup_isd9100.o -IC:\K
+eil_v5\ARM\RV31\INC -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__UVISION_VERSI
+ON SETA 516" --predefine="__ISD9100__ SETA 1" --list=.\nuliteex\startup_isd9100
+.lst startup_ISD9100.s
 
 
 
@@ -786,4 +787,4 @@ Symbol: __use_two_region_memory
       None
 Comment: __use_two_region_memory unused
 2 symbols
-379 symbols in table
+380 symbols in table
